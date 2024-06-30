@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+@mixin btn-style() {
+  border: 1px solid #79889a;
+  border-radius: 22px;
+  background-color: #fff;
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+  transition: 0.3s;
+
+  &:hover,
+  &:focus {
+    background: red;
+  }
+}
+.boroboro {
+  color: yellow;
+}
